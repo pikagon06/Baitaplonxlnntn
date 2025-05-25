@@ -1,0 +1,183 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Xin chào, bạn khỏe không?",
+        "Chào bạn, hôm nay có gì đặc biệt không?",
+        "Có ai ở đó không? Tôi cần giúp đỡ!",
+        "Chào buổi sáng, nhà hàng có mở cửa không?",
+        "Chào buổi tối, tôi muốn đặt bàn.",
+        "Chào, tôi là khách mới, bạn có thể giới thiệu không?",
+        "Xin chào, tôi muốn biết thêm về nhà hàng của bạn."
+      ],
+      "responses": [
+        "Xin chào, rất vui được phục vụ bạn!",
+        "Chào mừng quý khách đến với nhà hàng Nhật Bản của chúng tôi!",
+        "Xin chào, tôi có thể giúp gì cho bạn hôm nay?",
+        "Konnichiwa! Bạn cần hỗ trợ gì?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Tạm biệt, cảm ơn bạn rất nhiều!",
+        "Hẹn gặp lại, tôi sẽ quay lại sớm.",
+        "Chào tạm biệt, chúc bạn một ngày vui!",
+        "Cảm ơn và tạm biệt nhé!",
+        "Tôi đi đây, hẹn lần sau gặp lại."
+      ],
+      "responses": [
+        "Hẹn gặp lại, chúc quý khách một ngày tốt lành!",
+        "Cảm ơn quý khách, mong sớm gặp lại!",
+        "Tạm biệt, chúc quý khách ngon miệng lần sau!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Cảm ơn bạn rất nhiều vì sự giúp đỡ!",
+        "Cảm ơn, thông tin này thật hữu ích.",
+        "Cảm ơn nhiều nhé, bạn rất tuyệt!",
+        "Thật sự cảm ơn, tôi rất hài lòng.",
+        "Cảm ơn, tôi sẽ quay lại nhà hàng!"
+      ],
+      "responses": [
+        "Rất hân hạnh được phục vụ!",
+        "Không có gì đâu ạ!",
+        "Cảm ơn quý khách đã ủng hộ nhà hàng chúng tôi!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Nhà hàng của bạn có những món ăn gì vậy?",
+        "Bạn có thể giới thiệu các món ăn Nhật Bản không?",
+        "Menu của nhà hàng có những món nào nổi bật?",
+        "Tôi muốn biết nhà hàng có món sushi hay ramen không?",
+        "Nhà hàng có bán món ăn chay không?",
+        "Bạn có món nào đặc biệt hôm nay không?"
+      ],
+      "responses": [
+        "Chúng tôi phục vụ sushi, sashimi, ramen, tempura và nhiều món ăn Nhật Bản khác.",
+        "Nhà hàng có sushi, ramen, các món nướng, và một số món chay theo phong cách Nhật Bản."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Tôi có thể thanh toán bằng thẻ tín dụng không vậy?",
+        "Nhà hàng có nhận thanh toán qua thẻ Mastercard hay Visa không?",
+        "Tôi muốn trả bằng ví điện tử, có được không?",
+        "Nhà hàng có chấp nhận thanh toán bằng Momo hoặc ZaloPay không?",
+        "Nhà hàng có chỉ nhận tiền mặt hay sao?",
+        "Thanh toán bằng cách nào là tiện nhất ở đây?"
+      ],
+      "responses": [
+        "Chúng tôi chấp nhận VISA, Mastercard, và thanh toán qua ví điện tử như Momo, ZaloPay.",
+        "Nhà hàng hỗ trợ thanh toán bằng hầu hết các loại thẻ tín dụng và ví điện tử."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Giao hàng mất bao lâu vậy?",
+        "Thời gian giao hàng của nhà hàng là bao lâu?",
+        "Khi nào tôi sẽ nhận được đồ ăn nếu đặt bây giờ?",
+        "Nhà hàng có giao hàng tận nơi không?",
+        "Giao hàng có tốn phí thêm không?",
+        "Tôi muốn đặt giao hàng, bao lâu thì đồ ăn đến?"
+      ],
+      "responses": [
+        "Thời gian giao hàng từ 30-60 phút tùy vào khoảng cách.",
+        "Giao hàng thường mất từ 30 phút đến 1 tiếng, có thể nhanh hơn nếu bạn ở gần."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Kể tôi nghe một câu chuyện cười về đồ ăn đi!",
+        "Nói gì đó hài hước về sushi hoặc ramen nào!",
+        "Bạn có biết chuyện cười nào liên quan đến nhà hàng không?",
+        "Hãy làm tôi cười với một câu đùa vui!",
+        "Câu chuyện cười nào bạn thích nhất?"
+      ],
+      "responses": [
+        "Bạn biết không? Sushi không bao giờ nói dối, vì nó luôn tươi!",
+        "Tại sao sushi không bao giờ cô đơn? Vì nó luôn có wasabi bên cạnh!",
+        "Ramen nói với sushi: 'Đừng cuộn tròn thế, thả lỏng đi nào!'"
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Tôi muốn đặt bàn cho tối nay, được không?",
+        "Nhà hàng có nhận đặt bàn trước không?",
+        "Tôi có thể đặt bàn cho nhóm 5 người không?",
+        "Làm thế nào để đặt bàn ở nhà hàng của bạn?",
+        "Bạn có bàn trống vào cuối tuần này không?",
+        "Đặt bàn có cần đặt cọc trước không?"
+      ],
+      "responses": [
+        "Vâng, chúng tôi nhận đặt bàn! Vui lòng cho biết thời gian và số lượng người.",
+        "Bạn có thể đặt bàn qua hotline hoặc trực tiếp tại nhà hàng."
+      ]
+    },
+    {
+      "tag": "special_request",
+      "patterns": [
+        "Tôi muốn món sushi không có hành, có được không?",
+        "Nhà hàng có thể làm món ăn ít muối hơn không?",
+        "Tôi dị ứng với đậu phộng, bạn có thể lưu ý không?",
+        "Có thể yêu cầu món ăn được chuẩn bị nhanh hơn không?",
+        "Tôi muốn ramen không cay, có làm được không?"
+      ],
+      "responses": [
+        "Chắc chắn rồi! Vui lòng cho chúng tôi biết yêu cầu của bạn, chúng tôi sẽ điều chỉnh món ăn.",
+        "Chúng tôi sẽ lưu ý các yêu cầu đặc biệt của bạn, cảm ơn bạn đã thông báo!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "Nhà hàng mở cửa đến mấy giờ vậy?",
+        "Giờ mở cửa của nhà hàng là khi nào?",
+        "Nhà hàng có mở cửa vào cuối tuần không?",
+        "Hôm nay nhà hàng mở cửa đến mấy giờ?",
+        "Bạn có mở cửa vào ngày lễ không?"
+      ],
+      "responses": [
+        "Nhà hàng mở cửa từ 10h sáng đến 10h tối mỗi ngày.",
+        "Chúng tôi mở cửa cả tuần, kể cả ngày lễ, từ 10h sáng đến 10h tối."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Nhà hàng của bạn nằm ở đâu vậy?",
+        "Địa chỉ của nhà hàng là gì?",
+        "Làm sao để đến nhà hàng của bạn?",
+        "Nhà hàng có gần trung tâm thành phố không?",
+        "Bạn có chi nhánh nào khác không?"
+      ],
+      "responses": [
+        "Nhà hàng chúng tôi nằm tại 123 Đường Lê Lợi, Quận 1, TP.HCM.",
+        "Bạn có thể tìm chúng tôi ở trung tâm thành phố, gần chợ Bến Thành."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Tôi muốn gửi phản hồi về dịch vụ, làm thế nào?",
+        "Nhà hàng có nhận ý kiến khách hàng không?",
+        "Tôi có thể để lại đánh giá ở đâu?",
+        "Làm sao để góp ý về món ăn của nhà hàng?",
+        "Tôi muốn khen ngợi dịch vụ của bạn!"
+      ],
+      "responses": [
+        "Cảm ơn ý kiến của bạn! Bạn có thể gửi phản hồi qua website hoặc trực tiếp tại nhà hàng.",
+        "Chúng tôi rất trân trọng đánh giá của bạn! Vui lòng để lại ý kiến trên Google hoặc Facebook."
+      ]
+    }
+  ]
+}
