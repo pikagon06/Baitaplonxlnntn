@@ -11,7 +11,7 @@
 
 ## 📚 Giới thiệu
 
-Đây là một dự án bài tập lớn của sinh viên **pikagon06**, thực hiện dưới sự hướng dẫn của **GVC.TS Nguyễn Thế Lộc**.  
+Đây là một dự án bài tập lớn của nhóm 3, thực hiện dưới sự hướng dẫn của **GVC.TS Nguyễn Thế Lộc**.  
 Dự án được chia thành hai giai đoạn chính, nhằm xây dựng và cải tiến một **hệ thống Chatbot sử dụng Machine Learning**.
 
 ---
